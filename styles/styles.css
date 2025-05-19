@@ -1,0 +1,12 @@
+body {
+    background: black;
+}
+
+h1 {
+    padding-top: 100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Roboto Condensed", sans-serif;
+}
