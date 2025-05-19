@@ -1,10 +1,11 @@
 body {
-    background: black;
+    background:  #002d52;
+  
 }
 
 h1 {
     padding-top: 100px;
-    color: white;
+    color: #0088d2;
     align-items: center;
     justify-content: center;
     display: flex;
