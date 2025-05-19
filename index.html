@@ -1,17 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeapGeo - Topografía</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>GeapGeo | Topografía</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 <body>
-<h1>Hola! 👋 
-<br>Esta página está en construcción</h1>  
+  <div class="full__container">
+    <nav class="navbar">
+       <div class="navbar__content">
+        <a href="index.html" class="logo">
+            GeapGeo
+           <!--<img src="img/logo.png" alt="Logo" style="height: 50px;">-->
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios"">Servicios</a></li>
+        </ul>
+       </div>
+    </nav>
+
+    <h1 class="title">GeapGeo | Topografía</h1>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Contenido de la sección Inicio.</p>
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide fade">
+                    <img src="img/image.png" alt="Imagen">
+                </div>
+                <div class="slide fade">
+                    <img src="img/image.png" alt="Imagen">
+                </div>
+                <div class="slide fade">
+                    <img src="img/image.png" alt="Imagen">
+                </div>
+                <div class="slide fade">
+                    <img src="img/image.png" alt="Imagen">
+                </div>
+            </div>
+    
+            <!-- Controles del slider -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <!-- Indicadores -->
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Contenido de la sección Servicios.</p>
+
+        <div class="container">
+            <div class="column">
+                <div class="icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <h3>Subtítulo 1</h3>
+                <p>Este es el párrafo de la columna 1, con información relevante.</p>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Subtítulo 2</h3>
+                <p>Este es el párrafo de la columna 2, con información relevante.</p>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Subtítulo 3</h3>
+                <p>Este es el párrafo de la columna 3, con información relevante.</p>
+            </div>
+            <div class="column">
+                <div class="icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Subtítulo 4</h3>
+                <p>Este es el párrafo de la columna 4, con información relevante.</p>
+            </div>
+        </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>Sobre Nosotros</h3>
+            <p>Texto simulado. Lorem ipsum dolor sit, adipisicing elit. Totam, eaque nemo odit accusantium laudantium. Provident, quas ducimus.</p>
+        </div>
+
+        <div class="footer-section links">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section social">
+            <h3>Síguenos</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; Mayo 2025</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
