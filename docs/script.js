@@ -1,3 +1,5 @@
+
+
 let slideIndex = 1;  // Empezamos con la primera imagen activa
 let timer;
 
@@ -56,3 +58,5 @@ function autoSlides() {
         showSlides(slideIndex += 1);
     }, 5000);  // Cambia cada 5 segundos
 }
+
+
