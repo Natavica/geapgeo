@@ -27,6 +27,7 @@ section h2, section p {
     top: 0;
     left: 0;
     z-index: 1000;
+    border-bottom: 1px solid #002d52;
 }
 
 .navbar img {
@@ -41,11 +42,6 @@ section h2, section p {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .navbar__content {
-        min-width: 100%;
-    }
-}
 
 
 .nav-links {
@@ -59,6 +55,19 @@ section h2, section p {
     padding: 10px;
     display: block;
 }
+
+@media (max-width: 768px) {
+    .navbar__content {
+        min-width: 100%;
+    }
+    .navbar__content a {
+        margin-left: 30px;
+    }
+    .nav-links {
+        margin: 0 30px;
+    }
+}
+
 
 .slider-container {
     position: relative;
